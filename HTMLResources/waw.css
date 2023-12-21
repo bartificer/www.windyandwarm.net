@@ -1,0 +1,199 @@
+/* Style for www.windyandwarm.net by Bart Busschots, Bartificer Web Solutions. */
+
+/* Sorting out the centered page container */
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: #E7E7E7;
+    background-image: url(pageBackground.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+  }
+  div#containing_div{
+    position: relative;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 700px;
+    text-align:left;
+  }
+  
+  /* The page header */
+  div#page_header{
+    position: relative;
+    background-color: #ff0000;
+    height: 100px;
+  }
+  
+  /* The language selection bar */
+  div#lang_select{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  div#lang_select img{
+    border: 1px solid #990000;
+  }
+  
+  /* The page content */
+  div#page_content{
+    border-top: 1px solid #990000;
+    padding-left: 160px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: url(contentBackground.png);
+    background-repeat: repeat-y;
+    margin: 0px;
+  }
+  
+  /* The side bar */
+  div#sidebar_left{
+    position: absolute;
+    top: 101px;
+    left: 0px;
+    width: 149px;
+  }
+  div.widget{
+    margin-top: 20px;
+    /*border-bottom: 1px solid #990000;
+    padding-bottom: 10px;*/
+  }
+  div.widget h1{
+    border-top: 1px solid #990000;
+    border-bottom: 1px solid #990000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #ffffff;
+    color: #990000;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+  }
+  div.widget ul{
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    padding-left: 20px;
+    color: #990000;
+  }
+  div.widget a:link, div.widget a:visited, div.widget a:active{
+    color: #990000;
+    text-decoration: none;
+  }
+  div.widget a:hover{
+    color: #990000;
+    text-decoration: underline;
+  }
+  div.widget li.current{
+    font-weight: bold;
+    list-style-type: square;
+  }
+  
+  /* The page footer */
+  div#page_footer{
+    margin: 0px;
+    border-top: 1px solid #990000;
+    border-bottom: 1px solid #990000;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 8pt;
+    font-style: italic;
+  }
+  div#page_footer a:link, div#page_footer a:visited, div#page_footer a:active{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  div#page_footer a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* links */
+  a:link, a:visited, a:active{
+    color: blue;
+    text-decoration: none;
+  }
+  a:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  /* generic styles */
+  div, p, li{
+    font-family: arial, sans;
+    font-size: 9pt;
+  }
+  h1{
+    color: #990000;
+  }
+  p.main_link{
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Images */
+  div.image_right{
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #990000;
+    background-color: #FFF0F0;
+    /* width: 320px; */
+  }
+  p.image_holder{
+    text-align: center;
+  }
+  p.image_holder img{
+    border: 1px solid black;
+  }
+  p.image_caption{
+    text-align: center;
+    font-size: 12px;
+    color: #990000;
+  }
+  
+  div#show_image_div{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #FFF0F0;
+    border-top: 1px solid #990000;
+    border-left: 1px solid #990000;
+    border-right: 2px solid #990000;
+    border-bottom: 2px solid #990000;
+  }
+  div#show_image_div p{
+    text-align: center;
+    padding: 3px;
+    color: #990000;
+  }
+  div#show_image_div h1{
+    background-color: white;
+    border-bottom: 1px solid #990000;
+    margin: 0px;
+    padding: 3px;
+  }
+  div#show_image_div img{
+    border: 1px solid black;
+    margin: 5px;
+  }
+  div#show_image_div input{
+    background-color: #ffcccc;
+    color: #990000;
+    border: 2px solid #990000;
+  }
+  div.image_bar{
+    float: right;
+    margin-left: 5px;
+    background-color: #FFF0F0;
+    width: 200px;
+    border: 1px solid #990000;
+  }
+  
